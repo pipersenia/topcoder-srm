@@ -65,7 +65,6 @@ public class PermutationSum {
 		String num = String.valueOf(n);
 		Set<String> permutations = new HashSet<String>();
 		permutations = getPermutations(num, permutations);
-		System.out.println(permutations);
 		for(String str: permutations) {
 			res += Integer.valueOf(str);
 		}
